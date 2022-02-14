@@ -1,13 +1,102 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
 .card{
-    width: 450px;
-    height: 320px;
-    background-color: pink;
+    flex: none;
+    width: 47%;
+    min-width: 450px;
+    background-color: white;
     border-radius: 15px;
     display: flex;
-    align-items: center;
-    padding: 0 12px;
+    padding: 30px 24px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.08);
+    margin: 6px;
 }
 
 .card .context{
-    
+    height: 100%;
+    padding-left: 30px;
 }
+.card .context .description{
+    margin-bottom: 15px;
+}
+.card .context .description h4{
+    font-weight: 700;
+}
+.card .context .description p{
+    margin-top: 5px;
+}
+.card .context .description h2{
+    font-weight: 800;
+    margin-top: 8px;
+}
+
+.card .context .utility{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* background-color: pink; */
+    align-items: center;
+}
+
+.card .context .utility .size button{
+    padding: 4px;
+    margin: 4px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #D0DFD2;
+    color: #287562;
+    border: 0.3px solid #89928A;
+    font-size: 9px;
+    transition: all 0.3s;
+}
+
+.card .context .utility .size button:hover, .card .context .utility .size button:active{
+
+    background-color: #287562;
+    color: #D0DFD2;
+
+}
+
+.card .context .utility .quantity button{
+    width: 25px;
+    height: 25px;
+    background-color: #287562;
+    color: #D0DFD2;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.card .context .utility .quantity button:hover{
+    background-color: #D0DFD2;
+    color: #287562;
+    border: 0.3px solid #89928A;
+}
+.card .context .utility .quantity span{
+    margin: 0 10px;
+}
+
+.card .context .action{
+    width: 100%;
+    text-align: end;
+}
+
+.card .context .action button{
+    padding: 8px 50px;
+    border-radius: 999px;
+    border: none;
+    background-color: #287562;
+    color: #D0DFD2;
+    transition: all 0.3s;
+
+}
+.card .context .action button:hover{
+    background-color: #D0DFD2;
+    color: #287562;
+}
+
+

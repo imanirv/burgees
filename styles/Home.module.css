@@ -10,18 +10,23 @@
 
 .nav_menu{
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .nav_menu .nav_item {
   margin: 0 15px;
 }
 
-.sectionA, .sectionB{
-  display: inline-block;
+.container{
+  display: flex;
 }
 
 .sectionA {
   width: 70%;
+}
+.sectionB{
+  width: 30%;
 }
 
 .footer{
