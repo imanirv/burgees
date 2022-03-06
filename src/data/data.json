@@ -1,0 +1,217 @@
+
+    {
+        "food": [
+        {
+            "id": 1,
+            "name": "regular burgees",
+            "price": 45000,
+            "size" : [
+                "S", "M", "L"
+            ],
+            "image": "regular-burgees.jpg"
+        },
+        {
+            "id": 2,
+            "name": "smoke beef burgees",
+            "price": 80000,
+            "size" : [
+                "S", "M", "L"
+            ],
+            "image": "smoke-beef-burgees.jpg"
+        },
+        {
+            "id": 3,
+            "name": "stealthmode burgees",
+            "price": 75000,
+            "size" : [
+                "S", "M", "L"
+            ],
+            "image":"stealthmode-burgees.jpg"
+        },
+        {
+            "id": 4,
+            "name": "super cow burgees",
+            "price": 100000,
+            "size" : [
+                "S", "M", "L"
+            ],
+            "image":"super-cow-burgees.jpg"
+        },
+        {
+            "id": 5,
+            "name": "cheezy beef burgees",
+            "price": 45000,
+            "size" : [
+                "S", "M", "L"
+            ],
+            "image": "cheezy-beef-burgees.jpg"
+        },
+        {
+            "id": 6,
+            "name": "beast burgees",
+            "price": 45000,
+            "size" : [
+                "S", "M", "L"
+            ],
+            "image": "beast-burgees.jpg"
+        }
+
+        ],
+        "drinks": [
+            {
+                "id": 1,
+                "name": "Iced Lemon Tea",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "iced-lemon-tea.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Orange Juice",
+                "price": 20000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "orange-juice.jpg"
+            },
+            {
+                "id": 3,
+                "name": "mango juice",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "mango-juice.jpg"
+            },
+            {
+                "id": 4,
+                "name": "strawberry mocktail",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "strawberry-mocktail.jpg"
+            },
+            {
+                "id": 5,
+                "name": "mocktail",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "mocktail.jpg"
+            },
+            {
+                "id": 6,
+                "name": "avocado juice",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "avocado-juice.jpg"
+            },
+            {
+                "id": 7,
+                "name": "strawberry smoothies",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "strawberry-smoothies.jpg"
+            },
+            {
+                "id": 8,
+                "name": "berry milk",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "berry-milk.jpg"
+            },
+            {
+                "id": 9,
+                "name": "grape smoothies",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "grape-smoothies.jpg"
+            },
+            {
+                "id": 10,
+                "name": "roll wafer choco smoothies",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "roll-wafer-choco-smoothies.jpg"
+            },
+            {
+                "id": 11,
+                "name": "iced espresso",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "iced-espresso.jpg"
+            },
+            {
+                "id": 12,
+                "name": "whipped cappucino",
+                "price": 15000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "whipped-cappucino.jpg"
+            }
+        ],
+        "fries": [
+            {
+                "id": 1,
+                "name": "french fries",
+                "price": 45000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "french-fries.jpg"
+            },
+            {
+                "id": 2,
+                "name": "onion rings",
+                "price": 45000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "onion-rings.jpg"
+            },
+            {
+                "id": 3,
+                "name": "chumpbrow",
+                "price": 45000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "chumpbrow.jpg"
+            },
+            {
+                "id": 4,
+                "name": "chicken ball",
+                "price": 45000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "chicken-ball.jpg"
+            },
+            {
+                "id": 5,
+                "name": "smoke sausage",
+                "price": 45000,
+                "size" : [
+                    "S", "M", "L"
+                ],
+                "image": "smoked-sausage.jpg"
+            }
+        ]
+    }
