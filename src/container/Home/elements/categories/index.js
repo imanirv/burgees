@@ -19,10 +19,7 @@ const Categories = ({press}) =>{
                 <Image src={'/categories-img/drinks.png'} width={51} height={51} alt=""></Image>
                 <h3 className={Styles.title}>Drinks</h3>
             </div>
-            <div className={Styles.card} onClick={() => press('others')}>
-                <Image src={'/categories-img/others.png'} width={51} height={51} alt=""></Image>
-                <h3 className={Styles.title}>Others</h3>
-            </div>
+          
         </div>
         </>
     )
